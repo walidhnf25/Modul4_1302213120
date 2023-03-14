@@ -17,42 +17,6 @@ namespace tpmodul4_1302213120
         }
     }
 
-    public class DoorMachine
-    {
-        enum State { TERKUNCI, TERBUKA };
-        private State state = State.TERKUNCI;
-
-        public DoorMachine()
-        {
-            Console.WriteLine("Pintu terkunci");
-        }
-
-        public void Buka()
-        {
-            if (state == State.TERBUKA)
-            {
-                Console.WriteLine("Pintu sudah terbuka");
-            }
-            else
-            {
-                state = State.TERBUKA;
-                Console.WriteLine("Pintu tidak terkunci");
-            }
-        }
-
-        public void Kunci()
-        {
-            if (state == State.TERKUNCI)
-            {
-                Console.WriteLine("Pintu sudah terkunci");
-            }
-            else
-            {
-                state = State.TERKUNCI;
-                Console.WriteLine("Pintu terkunci");
-            }
-        }
-    }
 
     class Program
     {
@@ -84,12 +48,6 @@ namespace tpmodul4_1302213120
             Console.WriteLine("Anggur : " + kodebuah);
             kodebuah = KodeBuah.GetKodeBuah(KodeBuah.buah.Melon);
             Console.WriteLine("Melon : " + kodebuah + "\n");
-
-            DoorMachine door = new DoorMachine();
-            door.Buka();    /// Output: "Pintu tidak terkunci"
-            door.Kunci();   /// Output: "Pintu terkunci"
-            door.Kunci();   /// Output: "Pintu sudah terkunci"
-            door.Buka();    /// Output: "Pintu tidak terkunci"
         }
     }
 }
