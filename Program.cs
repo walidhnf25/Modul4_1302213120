@@ -20,8 +20,10 @@ namespace tpmodul4_1302213120
 
     class Program
     {
+        enum State { BERDIRI, TERBANG, JONGKOK, TENGKURAP };
         static void Main(string[] args)
         {
+            //Soal Nomor 1
             string kodebuah = KodeBuah.GetKodeBuah(KodeBuah.buah.Apel); 
             Console.WriteLine("Apel : " + kodebuah);
             kodebuah = KodeBuah.GetKodeBuah(KodeBuah.buah.Aprikot);
@@ -48,6 +50,31 @@ namespace tpmodul4_1302213120
             Console.WriteLine("Anggur : " + kodebuah);
             kodebuah = KodeBuah.GetKodeBuah(KodeBuah.buah.Melon);
             Console.WriteLine("Melon : " + kodebuah + "\n");
+
+            //Soal Nomor 2
+            
+            State state = State.BERDIRI;
+            string[] screenName = { "BERDIRI", "TERBANG", "JONGKOK", "TENGKURAP" };
+            while (state != State.BERDIRI)
+            {
+                Console.WriteLine(screenName[(int)state] + " SCREEN");
+                Console.Write("Enter Command : ");
+
+                string command = Console.ReadLine();
+                switch (state)
+                {
+                    case State.TENGKURAP:
+                        if (command == "TombolW")
+                            state = State.TERBANG;
+                        else if (command == "TombolS")
+                            state = State.JONGKOK;
+                        else
+                            state = State.BERDIRI;
+                        break;
+                }
+            }
+            Console.WriteLine("TERBANG");
+            Console.WriteLine("JONGKOK");
         }
     }
 }
