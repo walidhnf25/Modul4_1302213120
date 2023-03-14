@@ -1,0 +1,8 @@
+C:\Users\PRAKTIKAN\Downloads\kpl_modul3_1302200091\Modul4_1302213120\obj\Debug\Modul4_1302213120.csproj.AssemblyReference.cache
+C:\Users\PRAKTIKAN\Downloads\kpl_modul3_1302200091\Modul4_1302213120\obj\Debug\Modul4_1302213120.csproj.SuggestedBindingRedirects.cache
+C:\Users\PRAKTIKAN\Downloads\kpl_modul3_1302200091\Modul4_1302213120\obj\Debug\Modul4_1302213120.csproj.CoreCompileInputs.cache
+C:\Users\PRAKTIKAN\Downloads\kpl_modul3_1302200091\Modul4_1302213120\bin\Debug\Modul4_1302213120.exe.config
+C:\Users\PRAKTIKAN\Downloads\kpl_modul3_1302200091\Modul4_1302213120\bin\Debug\Modul4_1302213120.exe
+C:\Users\PRAKTIKAN\Downloads\kpl_modul3_1302200091\Modul4_1302213120\bin\Debug\Modul4_1302213120.pdb
+C:\Users\PRAKTIKAN\Downloads\kpl_modul3_1302200091\Modul4_1302213120\obj\Debug\Modul4_1302213120.exe
+C:\Users\PRAKTIKAN\Downloads\kpl_modul3_1302200091\Modul4_1302213120\obj\Debug\Modul4_1302213120.pdb
